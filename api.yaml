@@ -28,7 +28,7 @@ providers:
       - all
   
 tokens:
-  - api_key: 3c0e3b98a12449a9ab6d616a1f3c17c0
+  - api_key: sk-3c0e3b98a12449a9ab6d616a1f3c17c0
     model:
       - all
 
