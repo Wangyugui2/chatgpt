@@ -5,8 +5,6 @@ providers:
     api_key: sk-xxxxxxxxxxxxx
     model:
       - deepseek-chat
-      - deepseek-coder
-
 tokens:
   - api_key: sk-123456
     model:
