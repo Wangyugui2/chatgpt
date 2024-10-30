@@ -2,13 +2,35 @@ providers:
   - provider: openai
     name: deepseek
     base_url: https://api.deepseek.com/v1
-    api_key: sk-xxxxxxxxxxxxx
+    api_key: sk-3c0e3b98a12449a9ab6d616a1f3c17c0
     model:
-      - deepseek-chat
+      - all
+      
+  - provider: openai
+    name: gemini
+    base_url: https://gala.chataiapi.com
+    api_key: sk-TrJU2mHnBLnaDLWG2Pw2eEZadRIWAf0Q3GlnQScIFr1ilODW
+    model:
+      - all
+      
+  - provider: openai
+    name: freegithub
+    base_url: https://api.chatanywhere.org
+    api_key: sk-AOYJbpEtyr0O98ALTfCv8ow9Ybdv4aMk7qKfLOhrwsvJpmnA
+    model:
+      - all
+      
+  - provider: openai
+    name: GUEAPI
+    base_url:  https://api.gueai.com
+    api_key: sk-Rm85X6dYrWNt0DMfAd337f3bE15d4e7f817a12F0B64bCa17
+    model:
+      - all
+  
 tokens:
-  - api_key: sk-123456
+  - api_key: 3c0e3b98a12449a9ab6d616a1f3c17c0
     model:
       - all
 
 server:
-    default_model: deepseek-chat
+    default_model: gpt-4o-mini
