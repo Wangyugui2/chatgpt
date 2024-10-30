@@ -1,0 +1,16 @@
+providers:
+  - provider: openai
+    name: deepseek
+    base_url: https://api.deepseek.com/v1
+    api_key: sk-xxxxxxxxxxxxx
+    model:
+      - deepseek-chat
+      - deepseek-coder
+
+tokens:
+  - api_key: sk-123456
+    model:
+      - all
+
+server:
+    default_model: deepseek-chat
